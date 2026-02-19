@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f1416;
+    color: #d7f4f6;
+}
+
+.container {
+    max-width: 520px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+select, button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select {
+    padding-right: 28px; /* espacio para flecha */
+}
+
+button {
+    line-height: 1.2;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #2fa3a8;
+    background: #162326;
+    color: #d7f4f6;
+    font-size: 14px;
+}
+
+textarea {
+    height: 140px;
+    resize: none;
+}
+
+textarea.small {
+    height: 70px;
+}
+
+button {
+    width: 100%;
+    margin-top: 16px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #2fa3a8;
+    background: #1f6f73;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button:active {
+    background: #184f52;
+}
+
+#msg {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 13px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nueva Tarea</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<!-- iPhone icon -->
+<link rel="apple-touch-icon" href="icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="To Do">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Agregar Nueva Tarea</h1>
+
+    <!-- TITLE -->
+    <input id="title" placeholder="Task title" />
+
+    <!-- STATUS -->
+    <select id="status">
+        <option value="Undefined">Undefined</option>
+        <option value="En proceso">En proceso</option>
+        <option value="Pendiente">Pendiente</option>
+        <option value="En producción">En producción</option>
+        <option value="Listo">Listo</option>
+        <option value="Atrasado">Atrasado</option>
+        <option value="Error">Error</option>
+    </select>
+
+    <!-- DESCRIPTION -->
+    <textarea id="description" placeholder="Details / Description"></textarea>
+
+    <!-- NOTES -->
+    <textarea id="notes" class="small" placeholder="Highlights"></textarea>
+
+    <!-- CREATE -->
+    <button onclick="createTask()">Crear</button>
+
+    <div id="msg"></div>
+
+</div>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
