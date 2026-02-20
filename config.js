@@ -4,6 +4,6 @@ const CONFIG = {
     branch: "main",
     path: "online-tasks.csv",
 
-    // ⚠️ REEMPLAZA ESTO LOCALMENTE
-    token: "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"
+    token: "bck_BcfPNmVzSLjYPga7bUuJaKJMDV7kgB0esXtU"
 };
+
