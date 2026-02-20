@@ -7,3 +7,4 @@ const CONFIG = {
     token: "bck_BcfPNmVzSLjYPga7bUuJaKJMDV7kgB0esXtU"
 };
 
+const REAL_TOKEN = caesarShift(CONFIG.token, 5);
