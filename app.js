@@ -52,7 +52,7 @@ async function fetchFile() {
 
     const res = await fetch(url, {
         headers: {
-            Authorization: `token ${REAL_TOKEN}`
+            Authorization: `token ${CONFIG.token}`
 
         }
     });
@@ -80,11 +80,12 @@ async function pushFile(content) {
     await fetch(url, {
         method: "PUT",
         headers: {
-            Authorization: `token ${REAL_TOKEN}`,
+            Authorization: `token ${CONFIG.token}`,
             "Content-Type": "application/json"
         },
         body: JSON.stringify(body)
     });
 }
+
 
 
